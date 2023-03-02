@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@600&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFDEAD;
+}
+/*---------------------Navbar-------------------*/
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #6f6f6f;
+}
+nav h1{
+    color: #4d4c4c;
+    font-family: 'Playfair Display' , sans-serif;
+    font-size: 25px;
+    display: flex;
+
+}
+nav .ongels{
+    margin-top: 3px;
+    margin-left:600px;
+}
+nav .ongels a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+@media screen and (max-width:680px){    /* screen for phones*/
+    nav .ongels{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+/*--------------------header------------------*/
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(image/about-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding: 50px;
+}
+header h1{
+    font-family: 'Playfair Display' , sans-serif;
+    font-size: 40px;
+
+}
+header h1 span{
+    color: #d9ba85;
+}
+header h4{
+    margin-top: -15px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+header h5{
+    margin-top: -15px;
+    font-size: 20px;
+    text-align: center;
+    color: #f7ddb0;
+    border-bottom: 1px solid #fff;
+    font-family: 'Playfair Display' , sans-serif;
+}
+header button{
+    padding: 10px 20px ;
+    background-color: #CD853F;
+    color: #000;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Playfair Display' , sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+header button:hover{
+    box-shadow: 5px 5px 7px #CD853F;
+}
+/*------------------main section -------------------*/
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
+}
+/*--------------------footer------------------*/
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair Display' , sans-serif;
+    border-bottom: 1px solid #fff;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+}
+footer .services .service p{
+    display: flex;
+}
+footer .services .service p span{
+    color: #d6931e;
+}
+
+/*----------services siction ---------*/
+
+.contact .info i {
+    font-size: 20px;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #cda45e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+   
+ }
+ .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
+ }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #c09141;
+  }
+  /*---------------message----------------*/
+  .message{
+      font-size:20px;
+      font-family: 'Playfair Display' , sans-serif;
+  }
+  textarea{
+      background-color: #c7c6c6;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+      
+  }
+.message button{
+    padding: 10px 20px ;
+    background-color: #CD853F;
+    color: #000;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Playfair Display' , sans-serif;
+    cursor: pointer;
+}
+
+  
